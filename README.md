@@ -20,6 +20,7 @@ Before running the program, make sure you have the following installed:
 
 ## Usage
 
-To use the program, simply run the compiled executable with the URL of the file you want to download and the path where you want to save the downloaded file. For example:
-$ g++ -o download_video main.cpp -lcurl (linux)
+To use the program, simply run the compiled executable with the URL of the file you want to download and the path where you want to save the downloaded file. For example(linux specific):
+$ g++ -o download_video main.cpp -lcurl 
+
 $ ./download_video
